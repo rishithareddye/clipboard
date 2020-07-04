@@ -1,0 +1,108 @@
+html, body {
+    height: 100%;
+  }
+  
+  .card-body{
+    overflow:auto;
+  }
+  .time{
+    padding:10px;
+    color: 	#696969;
+  }
+  .locked{
+    padding:10px;
+    color: 	#C42020;
+  }
+  .unlocked{
+    padding:10px;
+    color: 	green;
+  }
+  .txtarea {
+    display: block;
+    -webkit-box-sizing: padding-box;
+            box-sizing: padding-box;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 14px;
+    height:auto;
+    border-radius: 6px;
+    width:100%;
+    -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fileon {
+    border-radius: 6px;
+    width:100%;
+    -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .div-clip {
+    white-space: pre-wrap;
+}
+  .hide{
+    display: none;
+  }
+  .disabledtxtarea{
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    height: 1%;
+    width: 1%;
+  }
+
+  .clip-content{
+    float: left;
+    width:72%;
+    padding: 10px;
+    /* word-break: break-all; */
+    word-wrap: break-word;
+  }
+  .alert-peek{
+    display: none;
+  }
+  .trash:hover{
+    color: white;
+    background-color: #dc3545;
+  }
+  .clip-op{
+    background-color: white;
+  }
+  .edit:hover{
+    color: white;
+    background-color: #007bff;
+  }
+  .update:hover{
+    color: white;
+    background-color: #007bff;
+  }
+  .copy:hover{
+    color: white;
+    background-color: #28a745;
+  }
+  .options{
+    padding:2px;
+    float: right;
+  }
+  .clip-options{
+    float: left;
+    padding: 10px;
+    width:28%;
+  }
+  .alert{
+    padding-right: 0.5rem !important;
+  }
+  #menu {
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    width: auto;
+    max-width: 30%;
+    z-index: 100;
+  }
+  

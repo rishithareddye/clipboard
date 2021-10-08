@@ -25,5 +25,5 @@ and change the Rules in clipboard database to ( keep in mind it makes it open to
   }
 }
 ```
-can use some authentication to keep it secure.
+can use some authentication to keep it secure
 
